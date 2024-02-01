@@ -1,0 +1,1851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="vboxAll" alignment="CENTER" maxHeight="755.0" maxWidth="885.0" minHeight="755.0" minWidth="885.0" prefHeight="755.0" prefWidth="885.0" spacing="20.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <children>
+        <GridPane maxHeight="755.0" maxWidth="885.0" minHeight="755.0" minWidth="885.0" prefHeight="755.0" prefWidth="885.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="295.0" minWidth="295.0" prefWidth="295.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="295.0" minWidth="295.0" prefWidth="295.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="295.0" minWidth="295.0" prefWidth="295.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="375.0" minHeight="375.0" prefHeight="375.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="380.0" minHeight="380.0" prefHeight="380.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <GridPane maxHeight="360.0" maxWidth="295.0" minHeight="360.0" minWidth="295.0" prefHeight="360.0" prefWidth="295.0">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints maxHeight="290.0" minHeight="290.0" prefHeight="290.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="145.0" minHeight="0.0" prefHeight="38.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                        <GridPane>
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="50.0" minWidth="50.0" prefWidth="50.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="50.0" minWidth="50.0" prefWidth="18.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="50.0" minWidth="50.0" prefWidth="50.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="70.0" minWidth="70.0" prefWidth="70.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                    <children>
+                                        <Text fx:id="stBaseText" fill="#0000007d" strokeType="OUTSIDE" strokeWidth="0.0" text="T">
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                        </Text>
+                                    </children>
+                                </StackPane>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ST">
+                                    <font>
+                                        <Font name="System Bold" size="20.0" />
+                                    </font>
+                                    <GridPane.margin>
+                                        <Insets left="5.0" />
+                                    </GridPane.margin>
+                                </Text>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="PE" GridPane.rowIndex="1">
+                                    <font>
+                                        <Font name="System Bold" size="20.0" />
+                                    </font>
+                                    <GridPane.margin>
+                                        <Insets left="5.0" />
+                                    </GridPane.margin>
+                                </Text>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="EN" GridPane.rowIndex="2">
+                                    <font>
+                                        <Font name="System Bold" size="20.0" />
+                                    </font>
+                                    <GridPane.margin>
+                                        <Insets left="5.0" />
+                                    </GridPane.margin>
+                                </Text>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="CH" GridPane.rowIndex="3">
+                                    <font>
+                                        <Font name="System Bold" size="20.0" />
+                                    </font>
+                                    <GridPane.margin>
+                                        <Insets left="5.0" />
+                                    </GridPane.margin>
+                                </Text>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="IN" GridPane.rowIndex="4">
+                                    <font>
+                                        <Font name="System Bold" size="20.0" />
+                                    </font>
+                                    <GridPane.margin>
+                                        <Insets left="5.0" />
+                                    </GridPane.margin>
+                                </Text>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="AG" GridPane.rowIndex="5">
+                                    <font>
+                                        <Font name="System Bold" size="20.0" />
+                                    </font>
+                                    <GridPane.margin>
+                                        <Insets left="5.0" />
+                                    </GridPane.margin>
+                                </Text>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LK" GridPane.rowIndex="6">
+                                    <font>
+                                        <Font name="System Bold" size="20.0" />
+                                    </font>
+                                    <GridPane.margin>
+                                        <Insets left="5.0" />
+                                    </GridPane.margin>
+                                </Text>
+                                <GridPane GridPane.columnIndex="3">
+                                    <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+
+                                    </columnConstraints>
+                                    <rowConstraints>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    </rowConstraints>
+                                    <children>
+                                        <StackPane prefHeight="150.0" prefWidth="200.0">
+                                            <children>
+                                                <Button fx:id="strM" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#onSpecialMinusButtonClick" prefHeight="30.0" prefWidth="30.0" text="-">
+                                                    <font>
+                                                        <Font size="14.0" />
+                                                    </font>
+                                                </Button>
+                                            </children>
+                                        </StackPane>
+                                        <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                            <children>
+                                                <Button fx:id="strP" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#onSpecialPlusButtonClick" prefHeight="30.0" prefWidth="30.0" text="+">
+                                                    <font>
+                                                        <Font size="14.0" />
+                                                    </font>
+                                                </Button>
+                                            </children>
+                                        </StackPane>
+                                    </children>
+                                </GridPane>
+                                <GridPane GridPane.columnIndex="3" GridPane.rowIndex="3">
+                                    <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    </columnConstraints>
+                                    <rowConstraints>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    </rowConstraints>
+                                    <children>
+                                        <StackPane prefHeight="150.0" prefWidth="200.0">
+                                            <children>
+                                                <Button fx:id="chM" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#onSpecialMinusButtonClick" prefHeight="30.0" prefWidth="30.0" text="-">
+                                                    <font>
+                                                        <Font size="14.0" />
+                                                    </font>
+                                                </Button>
+                                            </children>
+                                        </StackPane>
+                                        <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                            <children>
+                                                <Button fx:id="chP" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#onSpecialPlusButtonClick" prefHeight="30.0" prefWidth="30.0" text="+">
+                                                    <font>
+                                                        <Font size="14.0" />
+                                                    </font>
+                                                </Button>
+                                            </children>
+                                        </StackPane>
+                                    </children>
+                                </GridPane>
+                                <GridPane GridPane.columnIndex="3" GridPane.rowIndex="4">
+                                    <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    </columnConstraints>
+                                    <rowConstraints>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    </rowConstraints>
+                                    <children>
+                                        <StackPane prefHeight="150.0" prefWidth="200.0">
+                                            <children>
+                                                <Button fx:id="inM" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#onSpecialMinusButtonClick" prefHeight="30.0" prefWidth="30.0" text="-">
+                                                    <font>
+                                                        <Font size="14.0" />
+                                                    </font>
+                                                </Button>
+                                            </children>
+                                        </StackPane>
+                                        <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                            <children>
+                                                <Button fx:id="inP" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#onSpecialPlusButtonClick" prefHeight="30.0" prefWidth="30.0" text="+">
+                                                    <font>
+                                                        <Font size="14.0" />
+                                                    </font>
+                                                </Button>
+                                            </children>
+                                        </StackPane>
+                                    </children>
+                                </GridPane>
+                                <GridPane GridPane.columnIndex="3" GridPane.rowIndex="5">
+                                    <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    </columnConstraints>
+                                    <rowConstraints>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    </rowConstraints>
+                                    <children>
+                                        <StackPane prefHeight="150.0" prefWidth="200.0">
+                                            <children>
+                                                <Button fx:id="agM" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#onSpecialMinusButtonClick" prefHeight="30.0" prefWidth="30.0" text="-">
+                                                    <font>
+                                                        <Font size="14.0" />
+                                                    </font>
+                                                </Button>
+                                            </children>
+                                        </StackPane>
+                                        <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                            <children>
+                                                <Button fx:id="agP" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#onSpecialPlusButtonClick" prefHeight="30.0" prefWidth="30.0" text="+">
+                                                    <font>
+                                                        <Font size="14.0" />
+                                                    </font>
+                                                </Button>
+                                            </children>
+                                        </StackPane>
+                                    </children>
+                                </GridPane>
+                                <GridPane GridPane.columnIndex="3" GridPane.rowIndex="6">
+                                    <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    </columnConstraints>
+                                    <rowConstraints>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    </rowConstraints>
+                                    <children>
+                                        <StackPane prefHeight="150.0" prefWidth="200.0">
+                                            <children>
+                                                <Button fx:id="lkM" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#onSpecialMinusButtonClick" prefHeight="30.0" prefWidth="30.0" text="-">
+                                                    <font>
+                                                        <Font size="14.0" />
+                                                    </font>
+                                                </Button>
+                                            </children>
+                                        </StackPane>
+                                        <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                            <children>
+                                                <Button fx:id="lkP" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#onSpecialPlusButtonClick" prefHeight="30.0" prefWidth="30.0" text="+">
+                                                    <font>
+                                                        <Font size="14.0" />
+                                                    </font>
+                                                </Button>
+                                            </children>
+                                        </StackPane>
+                                    </children>
+                                </GridPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                    <children>
+                                        <StackPane prefHeight="150.0" prefWidth="200.0">
+                                            <children>
+                                                <Text fx:id="enBaseText" fill="#0000007d" strokeType="OUTSIDE" strokeWidth="0.0" text="T">
+                                                    <font>
+                                                        <Font name="System Bold" size="20.0" />
+                                                    </font>
+                                                </Text>
+                                            </children>
+                                        </StackPane>
+                                    </children>
+                                </StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="2">
+                                    <children>
+                                        <Text fx:id="stFinalText" strokeType="OUTSIDE" strokeWidth="0.0" text="T">
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                        </Text>
+                                    </children>
+                                </StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                    <children>
+                                        <Text fx:id="peBaseText" fill="#0000007d" strokeType="OUTSIDE" strokeWidth="0.0" text="T">
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                        </Text>
+                                    </children>
+                                </StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                                    <children>
+                                        <Text fx:id="peFinalText" strokeType="OUTSIDE" strokeWidth="0.0" text="T">
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                        </Text>
+                                    </children>
+                                </StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                                    <children>
+                                        <Text fx:id="enFinalText" strokeType="OUTSIDE" strokeWidth="0.0" text="T">
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                        </Text>
+                                    </children>
+                                </StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                    <children>
+                                        <Text fx:id="chBaseText" fill="#0000007d" strokeType="OUTSIDE" strokeWidth="0.0" text="T">
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                        </Text>
+                                    </children>
+                                </StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                                    <children>
+                                        <Text fx:id="chFinalText" strokeType="OUTSIDE" strokeWidth="0.0" text="T">
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                        </Text>
+                                    </children>
+                                </StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                    <children>
+                                        <Text fx:id="inBaseText" fill="#0000007d" strokeType="OUTSIDE" strokeWidth="0.0" text="T">
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                        </Text>
+                                    </children>
+                                </StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                                    <children>
+                                        <Text fx:id="inFinalText" strokeType="OUTSIDE" strokeWidth="0.0" text="T">
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                        </Text>
+                                    </children>
+                                </StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                                    <children>
+                                        <Text fx:id="agBaseText" fill="#0000007d" strokeType="OUTSIDE" strokeWidth="0.0" text="T">
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                        </Text>
+                                    </children>
+                                </StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                                    <children>
+                                        <Text fx:id="agFinalText" strokeType="OUTSIDE" strokeWidth="0.0" text="T">
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                        </Text>
+                                    </children>
+                                </StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                                    <children>
+                                        <Text fx:id="lkBaseText" fill="#0000007d" strokeType="OUTSIDE" strokeWidth="0.0" text="T">
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                        </Text>
+                                    </children>
+                                </StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                                    <children>
+                                        <Text fx:id="lkFinalText" strokeType="OUTSIDE" strokeWidth="0.0" text="T">
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                        </Text>
+                                    </children>
+                                </StackPane>
+                                <GridPane GridPane.columnIndex="3" GridPane.rowIndex="1">
+                                    <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    </columnConstraints>
+                                    <rowConstraints>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    </rowConstraints>
+                                    <children>
+                                        <StackPane prefHeight="150.0" prefWidth="200.0">
+                                            <children>
+                                                <Button fx:id="peM" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#onSpecialMinusButtonClick" prefHeight="30.0" prefWidth="30.0" text="-">
+                                                    <font>
+                                                        <Font size="14.0" />
+                                                    </font>
+                                                </Button>
+                                            </children>
+                                        </StackPane>
+                                        <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                            <children>
+                                                <Button fx:id="peP" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#onSpecialPlusButtonClick" prefHeight="30.0" prefWidth="30.0" text="+">
+                                                    <font>
+                                                        <Font size="14.0" />
+                                                    </font>
+                                                </Button>
+                                            </children>
+                                        </StackPane>
+                                    </children>
+                                </GridPane>
+                                <GridPane GridPane.columnIndex="3" GridPane.rowIndex="2">
+                                    <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    </columnConstraints>
+                                    <rowConstraints>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    </rowConstraints>
+                                    <children>
+                                        <StackPane prefHeight="150.0" prefWidth="200.0">
+                                            <children>
+                                                <Button fx:id="enM" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#onSpecialMinusButtonClick" prefHeight="30.0" prefWidth="30.0" text="-">
+                                                    <font>
+                                                        <Font size="14.0" />
+                                                    </font>
+                                                </Button>
+                                            </children>
+                                        </StackPane>
+                                        <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                            <children>
+                                                <Button fx:id="enP" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#onSpecialPlusButtonClick" prefHeight="30.0" prefWidth="30.0" text="+">
+                                                    <font>
+                                                        <Font size="14.0" />
+                                                    </font>
+                                                </Button>
+                                            </children>
+                                        </StackPane>
+                                    </children>
+                                </GridPane>
+
+                            </children>
+                        </GridPane>
+                        <GridPane prefHeight="23.0" prefWidth="295.0" GridPane.rowIndex="1">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="60.0" prefWidth="60.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="249.0" minWidth="10.0" prefWidth="242.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <Text fx:id="levelLabel" strokeType="OUTSIDE" strokeWidth="0.0" text="Level:">
+                                    <GridPane.margin>
+                                        <Insets left="5.0" />
+                                    </GridPane.margin>
+                                    <font>
+                                        <Font size="20.0" />
+                                    </font>
+                                </Text>
+                                <Text fx:id="expLabel" strokeType="OUTSIDE" strokeWidth="0.0" text="Exp:" GridPane.rowIndex="1">
+                                    <GridPane.margin>
+                                        <Insets left="5.0" />
+                                    </GridPane.margin>
+                                    <font>
+                                        <Font size="20.0" />
+                                    </font>
+                                </Text>
+                                <Text fx:id="levelText" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXT" GridPane.columnIndex="1">
+                                    <font>
+                                        <Font size="20.0" />
+                                    </font>
+                                    <GridPane.margin>
+                                        <Insets left="5.0" />
+                                    </GridPane.margin>
+                                </Text>
+                                <Text fx:id="expText" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXT" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                    <font>
+                                        <Font size="20.0" />
+                                    </font>
+                                    <GridPane.margin>
+                                        <Insets left="5.0" />
+                                    </GridPane.margin>
+                                </Text>
+                            </children>
+                        </GridPane>
+                    </children>
+                </GridPane>
+                <GridPane maxHeight="360.0" minHeight="360.0" prefHeight="360.0" GridPane.columnIndex="1">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="150.0" minWidth="150.0" prefWidth="150.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="184.0" minWidth="10.0" prefWidth="184.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Hit Points">
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP/Level" GridPane.rowIndex="1">
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin></Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SP/Level" GridPane.rowIndex="2">
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin></Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Party Points" GridPane.rowIndex="3">
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin></Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="View Range" GridPane.rowIndex="4">
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin></Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Sequence" GridPane.rowIndex="5">
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin></Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Armor Class" GridPane.rowIndex="7">
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin></Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Action Points" GridPane.rowIndex="8">
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin></Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Carry Weight" GridPane.rowIndex="9">
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin></Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Melee Damage" GridPane.rowIndex="10">
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin></Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Poison Resistance" GridPane.rowIndex="11">
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin></Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Radiation Resistance" GridPane.rowIndex="12">
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin></Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Healing Rate" GridPane.rowIndex="13">
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin></Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Critical Chance" GridPane.rowIndex="14">
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin></Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Movement Speed" GridPane.rowIndex="15">
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin></Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Normal DT/DR" GridPane.rowIndex="16">
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin></Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Laser DT/DR" GridPane.rowIndex="17">
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin></Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Fire DT/DR" GridPane.rowIndex="18">
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin></Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Plasma DT/DR" GridPane.rowIndex="19">
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin></Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Electro DT/DR" GridPane.rowIndex="20">
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin></Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Explode DT/DR" GridPane.rowIndex="21">
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin>
+                        </Text>
+                        <Text fx:id="hpText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="1">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="hpLevelText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="SpLevelText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="ppText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="viewRangeText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="sequenceText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="acText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="apText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="cwText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="1" GridPane.rowIndex="9">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="meleeText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="1" GridPane.rowIndex="10">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="poisonResText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="1" GridPane.rowIndex="11">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="radResText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="1" GridPane.rowIndex="12">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="hrText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="1" GridPane.rowIndex="13">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="criticalChanceText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="1" GridPane.rowIndex="14">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="speedText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="1" GridPane.rowIndex="15">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="normalDTText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="1" GridPane.rowIndex="16">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="LaserDTText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="1" GridPane.rowIndex="17">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="FireDTText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="1" GridPane.rowIndex="18">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="PlasmaDTText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="1" GridPane.rowIndex="19">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="electroDTText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="1" GridPane.rowIndex="20">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="explodeDTText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="1" GridPane.rowIndex="21">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Flat Damage" GridPane.rowIndex="6">
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin>
+                        </Text>
+                        <Text fx:id="flatDamageText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font>
+                        </Text>
+                    </children>
+                    <GridPane.margin>
+                        <Insets top="5.0" />
+                    </GridPane.margin>
+                </GridPane>
+                <GridPane maxHeight="360.0" minHeight="360.0" prefHeight="360.0" GridPane.columnIndex="2">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="20.0" minWidth="20.0" prefWidth="20.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="115.0" minWidth="115.0" prefWidth="115.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="35.0" minWidth="35.0" prefWidth="35.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="35.0" minWidth="35.0" prefWidth="35.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Small Guns" GridPane.columnIndex="1" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Big Guns" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Energy Weapons" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Close Combat" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Throwing" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="First Aid" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Doctor" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Sneak" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Lockpick" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Steal" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Traps" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Science" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Repair" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Speech" GridPane.columnIndex="1" GridPane.rowIndex="13" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Barter" GridPane.columnIndex="1" GridPane.rowIndex="14" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Gambling" GridPane.columnIndex="1" GridPane.rowIndex="15" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Outdoorsman" GridPane.columnIndex="1" GridPane.rowIndex="16" />
+                        <CheckBox fx:id="sgCB" mnemonicParsing="false" onAction="#onSkillCheckBoxClick" />
+                        <CheckBox fx:id="bgCB" mnemonicParsing="false" onAction="#onSkillCheckBoxClick" GridPane.rowIndex="1" />
+                        <CheckBox fx:id="ewCB" mnemonicParsing="false" onAction="#onSkillCheckBoxClick" GridPane.rowIndex="2" />
+                        <CheckBox fx:id="ccCB" mnemonicParsing="false" onAction="#onSkillCheckBoxClick" GridPane.rowIndex="3" />
+                        <CheckBox fx:id="thCB" mnemonicParsing="false" onAction="#onSkillCheckBoxClick" GridPane.rowIndex="4" />
+                        <CheckBox fx:id="faCB" mnemonicParsing="false" onAction="#onSkillCheckBoxClick" GridPane.rowIndex="5" />
+                        <CheckBox fx:id="docCB" mnemonicParsing="false" onAction="#onSkillCheckBoxClick" GridPane.rowIndex="6" />
+                        <CheckBox fx:id="snCB" mnemonicParsing="false" onAction="#onSkillCheckBoxClick" GridPane.rowIndex="7" />
+                        <CheckBox fx:id="lpCB" mnemonicParsing="false" onAction="#onSkillCheckBoxClick" GridPane.rowIndex="8" />
+                        <CheckBox fx:id="stCB" mnemonicParsing="false" onAction="#onSkillCheckBoxClick" GridPane.rowIndex="9" />
+                        <CheckBox fx:id="trCB" mnemonicParsing="false" onAction="#onSkillCheckBoxClick" GridPane.rowIndex="10" />
+                        <CheckBox fx:id="scCB" mnemonicParsing="false" onAction="#onSkillCheckBoxClick" GridPane.rowIndex="11" />
+                        <CheckBox fx:id="reCB" mnemonicParsing="false" onAction="#onSkillCheckBoxClick" GridPane.rowIndex="12" />
+                        <CheckBox fx:id="spCB" mnemonicParsing="false" onAction="#onSkillCheckBoxClick" GridPane.rowIndex="13" />
+                        <CheckBox fx:id="baCB" mnemonicParsing="false" onAction="#onSkillCheckBoxClick" GridPane.rowIndex="14" />
+                        <CheckBox fx:id="gaCB" mnemonicParsing="false" onAction="#onSkillCheckBoxClick" GridPane.rowIndex="15" />
+                        <CheckBox fx:id="ouCB" mnemonicParsing="false" onAction="#onSkillCheckBoxClick" GridPane.rowIndex="16" />
+                        <Text fx:id="sgSPText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="2">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="bgSPText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="ewSPText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="ccSPText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="thSPText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="faSPText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="docSPText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="snSPText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="lpSPText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="2" GridPane.rowIndex="8">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="stSPText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="2" GridPane.rowIndex="9">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="trSPText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="2" GridPane.rowIndex="10">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="scSPText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="2" GridPane.rowIndex="11">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="reSPText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="2" GridPane.rowIndex="12">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="spSPText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="2" GridPane.rowIndex="13">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="baSPText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="2" GridPane.rowIndex="14">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="gaSPText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="2" GridPane.rowIndex="15">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="ouSPText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="2" GridPane.rowIndex="16">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Text>
+                        <Text fx:id="sgSP2Text" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="3" />
+                        <Text fx:id="bgSP2Text" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                        <Text fx:id="ewSP2Text" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                        <Text fx:id="ccSP2Text" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                        <Text fx:id="thSP2Text" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                        <Text fx:id="faSP2Text" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                        <Text fx:id="docSP2Text" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                        <Text fx:id="snSP2Text" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+                        <Text fx:id="lpSP2Text" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+                        <Text fx:id="stSP2Text" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+                        <Text fx:id="trSP2Text" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="3" GridPane.rowIndex="10" />
+                        <Text fx:id="scSP2Text" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="3" GridPane.rowIndex="11" />
+                        <Text fx:id="reSP2Text" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="3" GridPane.rowIndex="12" />
+                        <Text fx:id="spSP2Text" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="3" GridPane.rowIndex="13" />
+                        <Text fx:id="baSP2Text" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="3" GridPane.rowIndex="14" />
+                        <Text fx:id="gaSP2Text" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="3" GridPane.rowIndex="15" />
+                        <Text fx:id="ouSP2Text" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="3" GridPane.rowIndex="16" />
+                        <GridPane GridPane.columnIndex="4">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <StackPane prefHeight="150.0" prefWidth="200.0">
+                                    <children>
+                                        <Button fx:id="sgM" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillMinusButtonClick" prefHeight="15.0" prefWidth="15.0" text="-">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children>
+                                </StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                    <children>
+                                        <Button fx:id="sgP" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillPlusButtonClick" prefHeight="15.0" prefWidth="15.0" text="+">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children>
+                                </StackPane>
+                            </children>
+                        </GridPane>
+                        <GridPane GridPane.columnIndex="4" GridPane.rowIndex="1">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <StackPane prefHeight="150.0" prefWidth="200.0">
+                                    <children>
+                                        <Button fx:id="bgM" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillMinusButtonClick" prefHeight="15.0" prefWidth="15.0" text="-">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                    <children>
+                                        <Button fx:id="bgP" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillPlusButtonClick" prefHeight="15.0" prefWidth="15.0" text="+">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                            </children>
+                        </GridPane>
+                        <GridPane GridPane.columnIndex="4" GridPane.rowIndex="2">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <StackPane prefHeight="150.0" prefWidth="200.0">
+                                    <children>
+                                        <Button fx:id="ewM" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillMinusButtonClick" prefHeight="15.0" prefWidth="15.0" text="-">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                    <children>
+                                        <Button fx:id="ewP" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillPlusButtonClick" prefHeight="15.0" prefWidth="15.0" text="+">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                            </children>
+                        </GridPane>
+                        <GridPane GridPane.columnIndex="4" GridPane.rowIndex="3">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <StackPane prefHeight="150.0" prefWidth="200.0">
+                                    <children>
+                                        <Button fx:id="ccM" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillMinusButtonClick" prefHeight="15.0" prefWidth="15.0" text="-">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                    <children>
+                                        <Button fx:id="ccP" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillPlusButtonClick" prefHeight="15.0" prefWidth="15.0" text="+">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                            </children>
+                        </GridPane>
+                        <GridPane GridPane.columnIndex="4" GridPane.rowIndex="4">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <StackPane prefHeight="150.0" prefWidth="200.0">
+                                    <children>
+                                        <Button fx:id="thM" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillMinusButtonClick" prefHeight="15.0" prefWidth="15.0" text="-">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                    <children>
+                                        <Button fx:id="thP" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillPlusButtonClick" prefHeight="15.0" prefWidth="15.0" text="+">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                            </children>
+                        </GridPane>
+                        <GridPane GridPane.columnIndex="4" GridPane.rowIndex="5">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <StackPane prefHeight="150.0" prefWidth="200.0">
+                                    <children>
+                                        <Button fx:id="faM" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillMinusButtonClick" prefHeight="15.0" prefWidth="15.0" text="-">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                    <children>
+                                        <Button fx:id="faP" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillPlusButtonClick" prefHeight="15.0" prefWidth="15.0" text="+">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                            </children>
+                        </GridPane>
+                        <GridPane GridPane.columnIndex="4" GridPane.rowIndex="6">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <StackPane prefHeight="150.0" prefWidth="200.0">
+                                    <children>
+                                        <Button fx:id="docM" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillMinusButtonClick" prefHeight="15.0" prefWidth="15.0" text="-">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                    <children>
+                                        <Button fx:id="docP" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillPlusButtonClick" prefHeight="15.0" prefWidth="15.0" text="+">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                            </children>
+                        </GridPane>
+                        <GridPane GridPane.columnIndex="4" GridPane.rowIndex="7">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <StackPane prefHeight="150.0" prefWidth="200.0">
+                                    <children>
+                                        <Button fx:id="snM" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillMinusButtonClick" prefHeight="15.0" prefWidth="15.0" text="-">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                    <children>
+                                        <Button fx:id="snP" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillPlusButtonClick" prefHeight="15.0" prefWidth="15.0" text="+">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                            </children>
+                        </GridPane>
+                        <GridPane GridPane.columnIndex="4" GridPane.rowIndex="8">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <StackPane prefHeight="150.0" prefWidth="200.0">
+                                    <children>
+                                        <Button fx:id="lpM" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillMinusButtonClick" prefHeight="15.0" prefWidth="15.0" text="-">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                    <children>
+                                        <Button fx:id="lpP" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillPlusButtonClick" prefHeight="15.0" prefWidth="15.0" text="+">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                            </children>
+                        </GridPane>
+                        <GridPane GridPane.columnIndex="4" GridPane.rowIndex="9">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <StackPane prefHeight="150.0" prefWidth="200.0">
+                                    <children>
+                                        <Button fx:id="stM" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillMinusButtonClick" prefHeight="15.0" prefWidth="15.0" text="-">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                    <children>
+                                        <Button fx:id="stP" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillPlusButtonClick" prefHeight="15.0" prefWidth="15.0" text="+">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                            </children>
+                        </GridPane>
+                        <GridPane GridPane.columnIndex="4" GridPane.rowIndex="10">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <StackPane prefHeight="150.0" prefWidth="200.0">
+                                    <children>
+                                        <Button fx:id="trM" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillMinusButtonClick" prefHeight="15.0" prefWidth="15.0" text="-">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                    <children>
+                                        <Button fx:id="trP" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillPlusButtonClick" prefHeight="15.0" prefWidth="15.0" text="+">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                            </children>
+                        </GridPane>
+                        <GridPane GridPane.columnIndex="4" GridPane.rowIndex="11">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <StackPane prefHeight="150.0" prefWidth="200.0">
+                                    <children>
+                                        <Button fx:id="scM" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillMinusButtonClick" prefHeight="15.0" prefWidth="15.0" text="-">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                    <children>
+                                        <Button fx:id="scP" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillPlusButtonClick" prefHeight="15.0" prefWidth="15.0" text="+">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                            </children>
+                        </GridPane>
+                        <GridPane GridPane.columnIndex="4" GridPane.rowIndex="12">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <StackPane prefHeight="150.0" prefWidth="200.0">
+                                    <children>
+                                        <Button fx:id="reM" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillMinusButtonClick" prefHeight="15.0" prefWidth="15.0" text="-">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                    <children>
+                                        <Button fx:id="reP" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillPlusButtonClick" prefHeight="15.0" prefWidth="15.0" text="+">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                            </children>
+                        </GridPane>
+                        <GridPane GridPane.columnIndex="4" GridPane.rowIndex="13">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <StackPane prefHeight="150.0" prefWidth="200.0">
+                                    <children>
+                                        <Button fx:id="spM" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillMinusButtonClick" prefHeight="15.0" prefWidth="15.0" text="-">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                    <children>
+                                        <Button fx:id="spP" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillPlusButtonClick" prefHeight="15.0" prefWidth="15.0" text="+">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                            </children>
+                        </GridPane>
+                        <GridPane GridPane.columnIndex="4" GridPane.rowIndex="14">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <StackPane prefHeight="150.0" prefWidth="200.0">
+                                    <children>
+                                        <Button fx:id="baM" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillMinusButtonClick" prefHeight="15.0" prefWidth="15.0" text="-">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                    <children>
+                                        <Button fx:id="baP" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillPlusButtonClick" prefHeight="15.0" prefWidth="15.0" text="+">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                            </children>
+                        </GridPane>
+                        <GridPane GridPane.columnIndex="4" GridPane.rowIndex="15">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <StackPane prefHeight="150.0" prefWidth="200.0">
+                                    <children>
+                                        <Button fx:id="gaM" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillMinusButtonClick" prefHeight="15.0" prefWidth="15.0" text="-">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                    <children>
+                                        <Button fx:id="gaP" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillPlusButtonClick" prefHeight="15.0" prefWidth="15.0" text="+">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                            </children>
+                        </GridPane>
+                        <GridPane GridPane.columnIndex="4" GridPane.rowIndex="16">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <StackPane prefHeight="150.0" prefWidth="200.0">
+                                    <children>
+                                        <Button fx:id="ouM" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillMinusButtonClick" prefHeight="15.0" prefWidth="15.0" text="-">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                                <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                    <children>
+                                        <Button fx:id="ouP" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" onAction="#onSkillPlusButtonClick" prefHeight="15.0" prefWidth="15.0" text="+">
+                                            <font>
+                                                <Font size="7.0" />
+                                            </font>
+                                        </Button>
+                                    </children></StackPane>
+                            </children>
+                        </GridPane>
+                        <Text fx:id="skillPointsToUseLabel" strokeType="OUTSIDE" strokeWidth="0.0" text="Skill Tags:" GridPane.columnIndex="1" GridPane.rowIndex="18">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font>
+                        </Text>
+                        <Text fx:id="skillPointsToUseText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="2" GridPane.rowIndex="18">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font>
+                        </Text>
+                        <Button fx:id="sgPP" mnemonicParsing="false" onAction="#onSkillPlusPlusButtonClick" text="+++++" GridPane.columnIndex="5">
+                            <font>
+                                <Font size="7.0" />
+                            </font>
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin>
+                        </Button>
+                        <Button fx:id="bgPP" mnemonicParsing="false" onAction="#onSkillPlusPlusButtonClick" text="+++++" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                            <font>
+                                <Font size="7.0" />
+                            </font>
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin>
+                        </Button>
+                        <Button fx:id="ewPP" mnemonicParsing="false" onAction="#onSkillPlusPlusButtonClick" text="+++++" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                            <font>
+                                <Font size="7.0" />
+                            </font>
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin>
+                        </Button>
+                        <Button fx:id="ccPP" mnemonicParsing="false" onAction="#onSkillPlusPlusButtonClick" text="+++++" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                            <font>
+                                <Font size="7.0" />
+                            </font>
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin>
+                        </Button>
+                        <Button fx:id="thPP" mnemonicParsing="false" onAction="#onSkillPlusPlusButtonClick" text="+++++" GridPane.columnIndex="5" GridPane.rowIndex="4">
+                            <font>
+                                <Font size="7.0" />
+                            </font>
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin>
+                        </Button>
+                        <Button fx:id="faPP" mnemonicParsing="false" onAction="#onSkillPlusPlusButtonClick" text="+++++" GridPane.columnIndex="5" GridPane.rowIndex="5">
+                            <font>
+                                <Font size="7.0" />
+                            </font>
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin>
+                        </Button>
+                        <Button fx:id="docPP" mnemonicParsing="false" onAction="#onSkillPlusPlusButtonClick" text="+++++" GridPane.columnIndex="5" GridPane.rowIndex="6">
+                            <font>
+                                <Font size="7.0" />
+                            </font>
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin>
+                        </Button>
+                        <Button fx:id="snPP" mnemonicParsing="false" onAction="#onSkillPlusPlusButtonClick" text="+++++" GridPane.columnIndex="5" GridPane.rowIndex="7">
+                            <font>
+                                <Font size="7.0" />
+                            </font>
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin>
+                        </Button>
+                        <Button fx:id="lpPP" mnemonicParsing="false" onAction="#onSkillPlusPlusButtonClick" text="+++++" GridPane.columnIndex="5" GridPane.rowIndex="8">
+                            <font>
+                                <Font size="7.0" />
+                            </font>
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin>
+                        </Button>
+                        <Button fx:id="stPP" mnemonicParsing="false" onAction="#onSkillPlusPlusButtonClick" text="+++++" GridPane.columnIndex="5" GridPane.rowIndex="9">
+                            <font>
+                                <Font size="7.0" />
+                            </font>
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin>
+                        </Button>
+                        <Button fx:id="trPP" mnemonicParsing="false" onAction="#onSkillPlusPlusButtonClick" text="+++++" GridPane.columnIndex="5" GridPane.rowIndex="10">
+                            <font>
+                                <Font size="7.0" />
+                            </font>
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin>
+                        </Button>
+                        <Button fx:id="scPP" mnemonicParsing="false" onAction="#onSkillPlusPlusButtonClick" text="+++++" GridPane.columnIndex="5" GridPane.rowIndex="11">
+                            <font>
+                                <Font size="7.0" />
+                            </font>
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin>
+                        </Button>
+                        <Button fx:id="rePP" mnemonicParsing="false" onAction="#onSkillPlusPlusButtonClick" text="+++++" GridPane.columnIndex="5" GridPane.rowIndex="12">
+                            <font>
+                                <Font size="7.0" />
+                            </font>
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin>
+                        </Button>
+                        <Button fx:id="spPP" mnemonicParsing="false" onAction="#onSkillPlusPlusButtonClick" text="+++++" GridPane.columnIndex="5" GridPane.rowIndex="13">
+                            <font>
+                                <Font size="7.0" />
+                            </font>
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin>
+                        </Button>
+                        <Button fx:id="baPP" mnemonicParsing="false" onAction="#onSkillPlusPlusButtonClick" text="+++++" GridPane.columnIndex="5" GridPane.rowIndex="14">
+                            <font>
+                                <Font size="7.0" />
+                            </font>
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin>
+                        </Button>
+                        <Button fx:id="gaPP" mnemonicParsing="false" onAction="#onSkillPlusPlusButtonClick" text="+++++" GridPane.columnIndex="5" GridPane.rowIndex="15">
+                            <font>
+                                <Font size="7.0" />
+                            </font>
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin>
+                        </Button>
+                        <Button fx:id="ouPP" mnemonicParsing="false" onAction="#onSkillPlusPlusButtonClick" text="+++++" GridPane.columnIndex="5" GridPane.rowIndex="16">
+                            <font>
+                                <Font size="7.0" />
+                            </font>
+                            <GridPane.margin>
+                                <Insets left="5.0" />
+                            </GridPane.margin>
+                        </Button>
+                    </children>
+                    <padding>
+                        <Insets top="5.0" />
+                    </padding>
+                </GridPane>
+                <GridPane maxHeight="390.0" minHeight="390.0" prefHeight="390.0" GridPane.rowIndex="1">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="20.0" minHeight="20.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="330.0" minHeight="330.0" prefHeight="330.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                        <StackPane prefHeight="80.0" prefWidth="295.0">
+                            <children>
+                                <GridPane>
+                                    <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="80.0" minWidth="80.0" prefWidth="80.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="245.0" minWidth="10.0" prefWidth="217.0" />
+                                    </columnConstraints>
+                                    <rowConstraints>
+                                        <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    </rowConstraints>
+                                    <children>
+                                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Trait 1:">
+                                            <GridPane.margin>
+                                                <Insets left="5.0" />
+                                            </GridPane.margin>
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                        </Text>
+                                        <ChoiceBox fx:id="trait1ChoiceBox" maxWidth="200.0" minWidth="200.0" prefHeight="25.0" prefWidth="200.0" GridPane.columnIndex="1" />
+                                        <Text fx:id="trait1Text" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="1">
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                        </Text>
+                                    </children>
+                                </GridPane>
+                            </children>
+                        </StackPane>
+                        <StackPane prefHeight="24.0" prefWidth="295.0" GridPane.rowIndex="1">
+                            <children>
+                                <Text fx:id="perksListLabel" strokeType="OUTSIDE" strokeWidth="0.0" text="Perks" />
+                            </children>
+                        </StackPane>
+                        <StackPane prefHeight="286.0" prefWidth="200.0" GridPane.rowIndex="2">
+                            <children>
+                                <ScrollPane fx:id="perksScrollPanel" maxHeight="330.0" maxWidth="280.0" minHeight="330.0" minWidth="280.0" prefHeight="330.0" prefWidth="280.0">
+                                    <content>
+                                        <AnchorPane maxHeight="320.0" maxWidth="270.0" minHeight="320.0" minWidth="270.0" prefHeight="320.0" prefWidth="270.0">
+                                            <children>
+                                                <TextArea fx:id="perksTextArea" editable="false" minHeight="330.0" minWidth="270.0" prefHeight="330.0" prefWidth="270.0">
+                                                    <font>
+                                                        <Font size="18.0" />
+                                                    </font></TextArea>
+                                            </children>
+                                        </AnchorPane>
+                                    </content>
+                                </ScrollPane>
+                            </children>
+                        </StackPane>
+                    </children>
+                </GridPane>
+                <GridPane maxHeight="390.0" minHeight="390.0" prefHeight="390.0" prefWidth="295.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="20.0" minHeight="20.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="330.0" minHeight="330.0" prefHeight="330.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                        <StackPane prefHeight="150.0" prefWidth="200.0">
+                            <children>
+                                <GridPane prefHeight="46.0" prefWidth="295.0">
+                                    <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="80.0" minWidth="80.0" prefWidth="80.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="231.0" minWidth="10.0" prefWidth="231.0" />
+                                    </columnConstraints>
+                                    <rowConstraints>
+                                        <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    </rowConstraints>
+                                    <children>
+                                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Trait 2:">
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                            <GridPane.margin>
+                                                <Insets />
+                                            </GridPane.margin></Text>
+                                        <ChoiceBox fx:id="trait2ChoiceBox" maxWidth="200.0" minWidth="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                            <GridPane.margin>
+                                                <Insets left="-5.0" />
+                                            </GridPane.margin></ChoiceBox>
+                                        <Text fx:id="trait2Text" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" GridPane.columnIndex="1">
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                            <GridPane.margin>
+                                                <Insets left="-5.0" />
+                                            </GridPane.margin>
+                                        </Text>
+                                    </children>
+                                    <padding>
+                                        <Insets left="5.0" />
+                                    </padding>
+                                </GridPane>
+                            </children>
+                        </StackPane>
+                        <StackPane prefHeight="161.0" prefWidth="295.0" GridPane.rowIndex="1">
+                            <children>
+                                <Text fx:id="supportsListLabel" strokeType="OUTSIDE" strokeWidth="0.0" text="Support Perks and Implants" />
+                            </children>
+                        </StackPane>
+                        <StackPane prefHeight="286.0" prefWidth="200.0" GridPane.rowIndex="2">
+                            <children>
+                                <ScrollPane fx:id="supportsScrollPanel" maxHeight="330.0" maxWidth="280.0" minHeight="330.0" minWidth="280.0" prefHeight="330.0" prefWidth="280.0">
+                                    <content>
+                                        <AnchorPane maxHeight="320.0" maxWidth="270.0" minHeight="320.0" minWidth="270.0" prefHeight="302.0" prefWidth="270.0">
+                                            <children>
+                                                <TextArea fx:id="supportsTextArea" editable="false" minHeight="330.0" minWidth="270.0" prefHeight="330.0" prefWidth="270.0">
+                                                    <font>
+                                                        <Font size="18.0" />
+                                                    </font></TextArea>
+                                            </children>
+                                        </AnchorPane>
+                                    </content>
+                                </ScrollPane>
+                            </children>
+                        </StackPane>
+                    </children>
+                </GridPane>
+                <GridPane maxHeight="390.0" minHeight="390.0" prefHeight="390.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="330.0" minHeight="330.0" prefHeight="330.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                        <GridPane maxHeight="74.0" minHeight="74.0" prefHeight="74.0" prefWidth="295.0">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="130.0" minWidth="130.0" prefWidth="130.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <StackPane prefWidth="200.0" GridPane.columnIndex="1">
+                                    <children>
+                                        <Button fx:id="levelUpButton" mnemonicParsing="false" onAction="#onLevelUpButtonClick" text="START">
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                        </Button>
+                                    </children>
+                                </StackPane>
+                                <StackPane maxHeight="80.0" minHeight="80.0" prefHeight="80.0" prefWidth="200.0">
+                                    <children>
+                                        <Text fx:id="newPerkText" strokeType="OUTSIDE" strokeWidth="0.0" text="NEW PERK!">
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                        </Text>
+                                    </children>
+                                </StackPane>
+                            </children>
+                        </GridPane>
+                        <GridPane fx:id="perksGridPane" prefHeight="310.0" prefWidth="296.0" GridPane.rowIndex="1">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints maxHeight="160.0" minHeight="160.0" prefHeight="160.0" vgrow="SOMETIMES" />
+                                <RowConstraints maxHeight="100.0" minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                                <RowConstraints maxHeight="70.0" minHeight="70.0" prefHeight="70.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <GridPane maxHeight="150.0" minHeight="150.0" prefHeight="150.0" prefWidth="295.0">
+                                    <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="80.0" minWidth="80.0" prefWidth="80.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="50.0" minWidth="50.0" prefWidth="50.0" />
+                                    </columnConstraints>
+                                    <rowConstraints>
+                                        <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    </rowConstraints>
+                                    <children>
+                                        <StackPane maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="200.0">
+                                            <children>
+                                                <Text fx:id="perksLabel" strokeType="OUTSIDE" strokeWidth="0.0" text="Perks:" />
+                                            </children>
+                                        </StackPane>
+                                        <StackPane prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                            <children>
+                                                <ChoiceBox fx:id="perksChoiceBox" prefWidth="150.0" />
+                                            </children>
+                                        </StackPane>
+                                        <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="2">
+                                            <children>
+                                                <Button fx:id="perksButton" maxHeight="25.0" minHeight="25.0" mnemonicParsing="false" prefHeight="25.0" text="Pick" />
+                                            </children>
+                                        </StackPane>
+                                        <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="1">
+                                            <children>
+                                                <Text fx:id="supportsLabel" strokeType="OUTSIDE" strokeWidth="0.0" text="Support Perks:" />
+                                            </children>
+                                        </StackPane>
+                                        <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                            <children>
+                                                <ChoiceBox fx:id="supportsChoiceBox" prefWidth="150.0" />
+                                            </children>
+                                        </StackPane>
+                                        <StackPane prefHeight="30.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                                            <children>
+                                                <Button fx:id="supportsButton" mnemonicParsing="false" text="Pick" />
+                                            </children>
+                                        </StackPane>
+                                        <StackPane maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="200.0" GridPane.rowIndex="2">
+                                            <children>
+                                                <Text fx:id="masteryLabel2" strokeType="OUTSIDE" strokeWidth="0.0" text="Mastery:" />
+                                            </children>
+                                        </StackPane>
+                                        <StackPane GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                            <children>
+                                                <ChoiceBox fx:id="masteryChoiceBox" prefWidth="150.0" />
+                                    <Text fx:id="masteryText" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                                       <font>
+                                          <Font name="System Bold" size="20.0" />
+                                       </font>
+                                    </Text>
+                                            </children>
+                                        </StackPane>
+                                        <StackPane prefHeight="30.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                                            <children>
+                                                <Button fx:id="masteryButton" maxHeight="25.0" minHeight="25.0" mnemonicParsing="false" prefHeight="25.0" text="Pick" />
+                                            </children>
+                                        </StackPane>
+
+
+                                        <StackPane maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="200.0" GridPane.rowIndex="3">
+                                            <children>
+                                                <Text fx:id="booksLabel" strokeType="OUTSIDE" strokeWidth="0.0" text="Books:" />
+                                            </children>
+                                        </StackPane>
+                                        <StackPane GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                            <children>
+                                                <ChoiceBox fx:id="booksChoiceBox" prefWidth="150.0" />
+                                            </children>
+                                        </StackPane>
+                                        <StackPane prefHeight="30.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                                            <children>
+                                                <Button fx:id="booksButton" maxHeight="25.0" minHeight="25.0" mnemonicParsing="false" prefHeight="25.0" text="Pick" />
+                                            </children>
+                                        </StackPane>
+
+
+
+                                        <StackPane maxHeight="50.0" minHeight="50.0" prefHeight="50.0" prefWidth="200.0" GridPane.rowIndex="4">
+                                            <children>
+                                                <Text fx:id="implantsLabel" strokeType="OUTSIDE" strokeWidth="0.0" text="Implants:" />
+                                            </children>
+                                        </StackPane>
+                                        <StackPane prefHeight="30.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                            <children>
+                                                <ChoiceBox fx:id="implantsChoiceBox" prefWidth="150.0" />
+                                            </children>
+                                        </StackPane>
+                                        <StackPane prefHeight="30.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                                            <children>
+                                                <Button fx:id="implantsButton" mnemonicParsing="false" text="Pick" />
+                                            </children>
+                                        </StackPane>
+                                    </children>
+                                </GridPane>
+                                <GridPane maxHeight="100.0" minHeight="100.0" prefHeight="100.0" GridPane.rowIndex="1">
+                                    <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    </columnConstraints>
+                                    <rowConstraints>
+                                        <RowConstraints maxHeight="20.0" minHeight="20.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="20.0" minHeight="20.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="20.0" minHeight="20.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="20.0" minHeight="20.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="20.0" minHeight="20.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                        <RowConstraints />
+                                    </rowConstraints>
+                                    <children>
+                                        <CheckBox fx:id="beerCB" mnemonicParsing="false" onAction="#onDrugsChange" text="Beer" />
+                                        <CheckBox fx:id="jetCB" mnemonicParsing="false" onAction="#onDrugsChange" text="Jet" GridPane.columnIndex="1">
+                                            <GridPane.margin>
+                                                <Insets />
+                                            </GridPane.margin></CheckBox>
+                                        <CheckBox fx:id="nukaCB" mnemonicParsing="false" onAction="#onDrugsChange" text="Nuka" GridPane.columnIndex="2">
+                                            <GridPane.margin>
+                                                <Insets />
+                                            </GridPane.margin></CheckBox>
+                                        <CheckBox fx:id="cigsCB" mnemonicParsing="false" onAction="#onDrugsChange" text="Cigs" GridPane.rowIndex="1">
+                                            <GridPane.margin>
+                                                <Insets />
+                                            </GridPane.margin></CheckBox>
+                                        <CheckBox fx:id="buffoutCB" mnemonicParsing="false" onAction="#onDrugsChange" text="Buffout" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                            <GridPane.margin>
+                                                <Insets />
+                                            </GridPane.margin></CheckBox>
+                                        <CheckBox fx:id="psychoCB" mnemonicParsing="false" onAction="#onDrugsChange" text="Psycho" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                                            <GridPane.margin>
+                                                <Insets />
+                                            </GridPane.margin></CheckBox>
+                                        <CheckBox fx:id="mentatsCB" mnemonicParsing="false" onAction="#onDrugsChange" text="Mentats" GridPane.columnIndex="0" GridPane.rowIndex="2">
+                                            <GridPane.margin>
+                                                <Insets />
+                                            </GridPane.margin></CheckBox>
+                                        <CheckBox fx:id="boozeCB" mnemonicParsing="false" onAction="#onDrugsChange" text="Booze" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                            <GridPane.margin>
+                                                <Insets />
+                                            </GridPane.margin></CheckBox>
+                                        <CheckBox fx:id="gammaCB" mnemonicParsing="false" onAction="#onDrugsChange" text="Gamma Beer" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                                            <GridPane.margin>
+                                                <Insets />
+                                            </GridPane.margin></CheckBox>
+                                        <CheckBox fx:id="roentgenCB" mnemonicParsing="false" onAction="#onDrugsChange" text="Roentgen" GridPane.columnIndex="0" GridPane.rowIndex="3">
+                                            <GridPane.margin>
+                                                <Insets />
+                                            </GridPane.margin></CheckBox>
+                                        <CheckBox fx:id="rotgutCB" mnemonicParsing="false" onAction="#onDrugsChange" text="Rotgut" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                            <GridPane.margin>
+                                                <Insets />
+                                            </GridPane.margin></CheckBox>
+                                        <CheckBox fx:id="cookieCB" mnemonicParsing="false" onAction="#onDrugsChange" text="Cookie" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                                            <GridPane.margin>
+                                                <Insets />
+                                            </GridPane.margin></CheckBox>
+                                        <CheckBox fx:id="fruitCB" mnemonicParsing="false" onAction="#onDrugsChange" text="Fruit" GridPane.columnIndex="0" GridPane.rowIndex="4">
+                                            <GridPane.margin>
+                                                <Insets />
+                                            </GridPane.margin></CheckBox>
+
+                                    </children>
+                                </GridPane>
+                                <GridPane GridPane.rowIndex="2">
+                                    <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    </columnConstraints>
+                                    <rowConstraints>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    </rowConstraints>
+                                    <children>
+                                        <StackPane maxHeight="80.0" minHeight="80.0" prefHeight="80.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                            <children>
+                                                <Button fx:id="screenshotButton" minHeight="50.0" minWidth="135.0" mnemonicParsing="false" onAction="#onScreenshotClick" prefWidth="135.0" text="Screenshot">
+                                                    <font>
+                                                        <Font name="System Bold" size="20.0" />
+                                                    </font>
+                                                </Button>
+                                            </children>
+                                        </StackPane>
+                                        <StackPane>
+                                            <children>
+                                                <Button fx:id="resetButton" minHeight="50.0" minWidth="135.0" mnemonicParsing="false" onAction="#onResetButtonClick" prefHeight="50.0" prefWidth="135.0" text="Reset">
+                                                    <font>
+                                                        <Font name="System Bold" size="20.0" />
+                                                    </font>
+                                                </Button>
+                                            </children></StackPane>
+                                    </children>
+                                </GridPane>
+                            </children>
+                        </GridPane>
+                    </children>
+                </GridPane>
+            </children>
+        </GridPane>
+    </children>
+</VBox>
